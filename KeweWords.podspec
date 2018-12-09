@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 
   s.name         = "KeweWords"
   s.version      = "0.0.1"
-  s.summary      = "A short description of KeweWords."
+  s.summary      = "A list of English words."
+  s.swift_version    = '4.0'
+
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +27,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+This is a long description of what my pod does. In order for CocoaPods to accept this, my description must be longer than the summary.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/KeweWords"
+  s.homepage     = "https://github.com/sheng168/KeweWords"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +41,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/KeweWords.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sheng168/KeweWords.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
