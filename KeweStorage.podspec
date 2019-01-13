@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "KeweWords"
+  s.name         = "KeweStorage"
   s.version      = "0.0.2"
   s.summary      = "A list of English words."
   s.swift_version    = '4.0'
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 This is a long description of what my pod does. In order for CocoaPods to accept this, my description must be longer than the summary.
                    DESC
 
-  s.homepage     = "https://github.com/sheng168/KeweWords"
+  s.homepage     = "https://github.com/sheng168/KeweStorage"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -70,9 +70,9 @@ This is a long description of what my pod does. In order for CocoaPods to accept
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
+  s.ios.deployment_target = "8.0"
+  # s.osx.deployment_target = "10.9"
+  s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
 
@@ -82,7 +82,7 @@ This is a long description of what my pod does. In order for CocoaPods to accept
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/sheng168/KeweWords.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sheng168/KeweStorage.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
